@@ -1,0 +1,26 @@
+# Local Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# Terraform State files (Crucial: these contain your infrastructure's "blueprint" and secrets)
+*.tfstate
+*.tfstate.*
+
+# Variables files that might contain secrets
+*.tfvars
+*.tfvars.json
+
+# Environment variables and local secrets
+.env
+.aws/
+credentials
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+vh/
+.venv/
