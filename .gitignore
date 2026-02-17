@@ -1,14 +1,14 @@
 # Local Terraform directories
-.terraform/
-.terraform.lock.hcl
+**/.terraform/
+**/.terraform.lock.hcl
 
 # Terraform State files (Crucial: these contain your infrastructure's "blueprint" and secrets)
-*.tfstate
-*.tfstate.*
+**/*.tfstate
+**/*.tfstate.*
 
 # Variables files that might contain secrets
-*.tfvars
-*.tfvars.json
+**/*.tfvars
+**/*.tfvars.json
 
 # Environment variables and local secrets
 .env
